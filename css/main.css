@@ -63,7 +63,8 @@ header nav a:hover {
 
 footer.info {
   color: #FFFAF0;
-  background: #777;
+  /* background: #777; */
+  background: #AF8787;
   padding: 0 auto;
   text-align: center;
 }
