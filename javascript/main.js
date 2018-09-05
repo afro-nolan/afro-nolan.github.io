@@ -1,5 +1,17 @@
 // JavaScript Document
+import Math;
 
+var text = [
+  "One",
+  "Two",
+  "Three",
+  "Four",
+  "Five"
+];
+
+document.getElementById("select").onclick = function() {
+  document.getElementById("result").innerHTML = text[Math.floor(Math.random() * text.length)];
+}
 const parallax = document.getElementById("parallax");
 
 window.addEventListener("scroll", function() {
@@ -54,3 +66,7 @@ $(document).scroll(function () {
     }
   
 });
+
+
+
+
