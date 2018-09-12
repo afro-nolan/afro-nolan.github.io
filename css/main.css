@@ -37,6 +37,7 @@ header nav a:hover {
 .section {
   background-image: url(../images/painting.jpeg);
   width: 100%;
+  max-width: 100%;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -44,6 +45,8 @@ header nav a:hover {
 }
 .section.two {
   background-image: url(../images/painting.jpeg);
+  width:100%;
+  max-width: 100%;
 }
 .section h2 {
   color: white;
