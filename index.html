@@ -17,7 +17,7 @@
 
 <body>
 <header>
-  <nav>
+  <nav class="topnav" id="myTopnav">
     <!--<span class="movetext"></span> -->
     <a href="https://docs.google.com/document/d/1c1OHoEGgKR2Fp2FOZx0C3LBnWSlsgNXC8heeuruNYAU/edit?usp=sharing">
             	<img src="https://png.icons8.com/nolan/50/000000/resume.png" alt="Resume"> 
@@ -29,6 +29,9 @@
     <a href="#projects">Projects</a>
     <a href="#work">Work Experience</a>
     <a href="#contactme">Contact Me</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
   </nav>
 </header>
     <div class="section one">
@@ -195,6 +198,18 @@
  </p> 
   
 </footer>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+</script>
     
     
 
