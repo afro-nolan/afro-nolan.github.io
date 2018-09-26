@@ -302,3 +302,7 @@ th {
   color: white;
   border-radius: 12px ;
 }
+
+.position {
+  line-height: 1px;
+}
