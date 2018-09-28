@@ -40,6 +40,9 @@ header nav a:hover {
     float: right;
     display: block;
   }
+  .position {
+    line-height: 2px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -53,6 +56,9 @@ header nav a:hover {
     float: none;
     display: block;
     text-align: left;
+  }
+  .position {
+    line-height: 2px;
   }
 }
 .active {
@@ -153,11 +159,17 @@ nav span {
     flex: 50%;
     max-width: 50%;
   }
+  .position {
+    line-height: 2px;
+  }
 }
 @media screen and (max-width:; 600px) {
   .column {
     flex: 1000%;
     max-width: 1000%;
+  }
+  .position {
+    line-height: 2px;
   }
 }
 
@@ -285,6 +297,9 @@ input[type=text], select {
     width: 100%;
     margin-top:0;
   }
+  .position {
+    line-height: 2px;
+  }
 }
 table {
   border-collapse: collapse;
@@ -306,4 +321,13 @@ th {
 
 .position {
   line-height: 1px;
+  overflow-x: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+#work {
+  position: relative;
+  overflow-x: scroll;
+  overflow-wrap: normal;
 }
