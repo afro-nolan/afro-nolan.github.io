@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   /*font-family: "Source Sans Pro", sans-serif; */
-  font-size: 20px;
+  font-size: 4vw;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -159,17 +159,11 @@ nav span {
     flex: 50%;
     max-width: 50%;
   }
-  .position {
-    line-height: 2px;
-  }
 }
 @media screen and (max-width:; 600px) {
   .column {
     flex: 1000%;
     max-width: 1000%;
-  }
-  .position {
-    line-height: 2px;
   }
 }
 
@@ -290,6 +284,7 @@ input[type=text], select {
     font-size: 20px;
     font-family: 'Gloria Hallelujah', cursive;
     resize: vertical;
+    overflow-x: scroll;
 }
 
 @media screen and (max-width: 600px) {
@@ -298,7 +293,6 @@ input[type=text], select {
     margin-top:0;
   }
   .position {
-    line-height: 2px;
   }
 }
 table {
@@ -319,15 +313,18 @@ th {
   border-radius: 12px ;
 }
 
-.position {
-  line-height: 1px;
-  overflow-x: auto;
-  overflow: hidden;
+.role {
   position: relative;
+  overflow-x: : scroll;
+  font-size: 4vw;
 }
 
-#work {
+.position h4 {
   position: relative;
-  overflow-x: scroll;
-  overflow-wrap: normal;
+  font-size: 4.5vw;
+}
+
+.position p {
+  position: relative;
+  font-size: 3vw;
 }
