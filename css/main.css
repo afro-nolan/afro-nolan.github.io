@@ -381,6 +381,7 @@ th {
 #email-field {
   overflow-wrap: wrap;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 #networks {
