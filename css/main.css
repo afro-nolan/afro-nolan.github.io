@@ -410,6 +410,12 @@ th {
   color: gray;
 }
 
+#email-field {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 #networks {
   display: flex;
   flex-direction: row;
