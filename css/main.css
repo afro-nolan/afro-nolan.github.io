@@ -364,12 +364,13 @@ th {
 
 #name-field, #email-field, #location-field {
   padding: 2px;
-  padding: 12px 20px;
+  padding: 12px 0px;
   margin: 8px 0;
   display: inline-block;
+  display: flex;
+  flex-direction: row;
   border: 1px solid #a51769;
   border-radius: 4px;
-  box-sizing: border-box;
   font-size: 20px;
   font-family: 'Gloria Hallelujah', cursive;
   background-color: white;
@@ -381,7 +382,7 @@ th {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-overflow: 
+  text-overflow: ;
   white-space: nowrap;
   white-space: initial;
 }
