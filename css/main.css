@@ -196,8 +196,11 @@ nav span {
     /*padding:1em;  */
     font-size:0; 
     /* Remember to change it back to normal font size if have captions */
-    list-style:none;
+    list-style-type: none;
     background-color: transparent;
+}
+.rig ul {
+	list-style-type: none;
 }
 .rig li {
     display: inline-block;
