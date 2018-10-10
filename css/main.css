@@ -379,12 +379,8 @@ th {
 }
 
 #email-field {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-overflow: ;
-  white-space: nowrap;
-  white-space: initial;
+  overflow-wrap: wrap;
+  overflow: hidden;
 }
 
 #networks {
