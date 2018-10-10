@@ -205,9 +205,9 @@ nav span {
 .rig li {
     display: inline-block;
     /*display:inline;/*for IE6 - IE7*/
-    width:25%;
-    vertical-align:middle;
-    box-sizing:border-box;
+    width: 50%;
+    vertical-align: middle;
+    box-sizing: border-box;
     margin:0;
     padding:0;
     display: relative;
@@ -216,7 +216,7 @@ nav span {
         
 /* The wrapper for each item */
 .rig-cell {
-    margin:12px; 
+    margin: 12px; 
     box-shadow:0 0 6px rgba(0,0,0,0.3);
     display:block;
     position: relative;
@@ -232,7 +232,6 @@ nav span {
     transform:scale(1);
     transition:all 1s;
     /*display: relative; */
-    width: 100%;
   	max-width: 100%;
   	height: 100%;
   	object-fit: cover; 
@@ -296,56 +295,24 @@ nav span {
 
 @media (max-width: 9000px) {
     .rig li {
-        width:25%;
+       /* width:25%; */
+       width: 50%;
     }
 }
 
 @media (max-width: 700px) {
     .rig li {
-        width:33.33%;
+        /*width:33.33%; */
+        width: 50%;
     }
 }
 
 @media (max-width: 550px) {
     .rig li {
-        width:50%;
+        width: 100%;
     }
 }
 
- /*
-.contactbox {
-  border-radius: 12px;
-  border-style: solid;
-  border-color: #442211;
-  background-color: #ff7799;
-  /*background-color: #f7e6f0; */ /*
-  padding: 20px;
-  font-size: 30px;
-  color: #23191f;
-  font-family: 'Gloria Hallelujah', cursive;
-} */
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #a51769;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-family: 'Gloria Hallelujah', cursive;
-    resize: vertical;
-    overflow-x: scroll;
-}
-
-@media screen and (max-width: 600px) {
-  input[type=text] {
-    width: 100%;
-    margin-top:0;
-  }
-  .position {
-  }
-}
 table {
   border-collapse: collapse;
   width: 100%;
