@@ -194,7 +194,8 @@ nav span {
     max-width:900px;
     margin:0 auto; /*center aligned*/
     /*padding:1em;  */
-    font-size:0; /* Remember to change it back to normal font size if have captions */
+    font-size:0; 
+    /* Remember to change it back to normal font size if have captions */
     list-style:none;
     background-color: transparent;
 }
@@ -207,6 +208,7 @@ nav span {
     margin:0;
     padding:0;
     display: relative;
+    list-style-type: none;
 }
         
 /* The wrapper for each item */
