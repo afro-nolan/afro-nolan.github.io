@@ -189,18 +189,18 @@ nav span {
   margin-top: 20px;
 }
 /*IMAGE STYLING */
-#rig {
+.rig {
 	z-index: 2;
     max-width:900px;
     margin:0 auto; /*center aligned*/
-    padding:1em;
+    /*padding:1em;  */
     font-size:0; /* Remember to change it back to normal font size if have captions */
     list-style:none;
     background-color: transparent;
 }
-#rig li {
+.rig li {
     display: inline-block;
-    display:inline;/*for IE6 - IE7*/
+    /*display:inline;/*for IE6 - IE7*/
     width:25%;
     vertical-align:middle;
     box-sizing:border-box;
@@ -211,25 +211,35 @@ nav span {
         
 /* The wrapper for each item */
 .rig-cell {
-    /*margin:12px; */
+    margin:12px; 
     box-shadow:0 0 6px rgba(0,0,0,0.3);
     display:block;
     position: relative;
     overflow:hidden;
+    /*border-radius: 30%; */
 }
         
 /* If have the image layer */
 .rig-img {
     display:block;
     width: 100%;
-    /*height: 200px; */
     border:none;
     transform:scale(1);
     transition:all 1s;
-    display: relative;
+    /*display: relative; */
+    width: 100%;
+  	max-width: 100%;
+  	height: 100%;
+  	object-fit: cover; 
+  	/*mix-blend-mode: multiply;
+ 	transition: all 0.3s ease-in-out; 
+  	/*border-radius: 100%; */
+  	height: 200px; 
+  	/*width: 200px; */
+  	/*flex-wrap: wrap; */
 }
 
-#rig li:hover .rig-img {
+.rig li:hover .rig-img {
     transform:scale(1.05);
 }
         
@@ -242,56 +252,56 @@ nav span {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: black url(img/link.png) no-repeat center 20%;
-    background-size: 200px 200px;
+    background: #b22593 url(img/link.png) no-repeat center 20%;
+    /*background-size: 200px 200px; */
     opacity:0;
     filter:alpha(opacity=0);/*For IE6 - IE8*/
     transition:all 0.6s;
 }
-#rig li:hover .rig-overlay {
+.rig li:hover .rig-overlay {
     opacity:0.8;
 }
 
 /* If have captions */
 .rig-text {
     display:block;
-    padding:0 30px;
+    padding:0 20px;
     box-sizing:border-box;
     position:absolute;
     left:0;
     width:100%;
-    text-align:center;
+    text-align:left;
     text-transform:capitalize;
     font-size:18px;
     font-weight:bold;
     font-family: 'Oswald', sans-serif;
     font-weight:normal!important;
-    top:40%;
+    top:20%;
     color:white;
     opacity:0;
     filter:alpha(opacity=0);/*For older IE*/
     transform:translateY(-20px);
     transition:all .3s;
 }
-#rig li:hover .rig-text {
+.rig li:hover .rig-text {
     transform:translateY(0px);
     opacity:0.9;
 }
 
 @media (max-width: 9000px) {
-    #rig li {
+    .rig li {
         width:25%;
     }
 }
 
 @media (max-width: 700px) {
-    #rig li {
+    .rig li {
         width:33.33%;
     }
 }
 
 @media (max-width: 550px) {
-    #rig li {
+    .rig li {
         width:50%;
     }
 }
