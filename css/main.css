@@ -381,6 +381,9 @@ th {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-overflow: 
+  white-space: nowrap;
+  white-space: initial;
 }
 
 #networks {
