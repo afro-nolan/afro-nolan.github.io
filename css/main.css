@@ -88,6 +88,7 @@ header nav a:hover {
     float: none;
     display: block;
     text-align: left;
+    padding: 2px;
   }
   .position {
     line-height: 2px;
@@ -164,8 +165,9 @@ nav img {
   height: 2.5em;
   position: absolute;
   left: 40px;
-  top: 10px;
+  top: 5px;
   transition: all 0.5s linear;
+  padding: 2px;
 }
 
 .move {
@@ -178,6 +180,7 @@ nav span {
   top: 10px;
   font-weight: bold;
   transition: all 0.5s ease-in;
+  padding: 2px;
 }
 
 .movetext {
