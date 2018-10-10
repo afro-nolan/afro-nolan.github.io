@@ -187,9 +187,11 @@ nav span {
 
 @media screen and (max-width:; 800px) {
   .column {
-    flex: 100%;
-    /* max-width: 50%; */
-    max-width: 100%;
+  	-ms-flex: 50%;
+  	flex: 50%;
+    /*flex: 100%; */
+    /* max-width: 100%; */
+    max-width: 50%;
   }
   /*body {
   	max-width: 100%;
@@ -203,12 +205,14 @@ nav span {
 }
 @media screen and (max-width:; 600px) {
   .column {
-    flex: 50%;
+  	-ms-flex: 100%;
+    flex: 100%;
+    /*flex: 50%; */
     /*max-width: 100%; */
     max-width: 100%;
-    float: left;
-    margin: 0;
-    width: 100%;
+    /*float: left; */
+    /*margin: 0;
+    width: 100%; */
   }
 
 }
@@ -251,6 +255,8 @@ nav span {
   padding: 30% 0;
   overflow: hidden;
   cursor: pointer;
+  -ms-flex: 25%;
+  fles: 25%;
 }
 
 .imagegrid figure::before {
