@@ -166,6 +166,9 @@ nav span {
     flex: 100%;
     /*max-width: 100%; */
     max-width: 100%;
+    position: relative;
+    margin: 0;
+    width: 100%;
   }
 }
 
