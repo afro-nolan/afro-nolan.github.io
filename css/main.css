@@ -214,6 +214,16 @@ nav span {
     /*margin: 0;
     width: 100%; */
   }
+  body {
+  	width: 100%;
+  	margin: 0 auto;
+  	max-width: 100%;
+  }
+  .section {
+  	max-width: 100%;
+  	margin: 0;
+  	position: absolute;
+  }
 
 }
 
