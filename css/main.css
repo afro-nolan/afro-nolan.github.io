@@ -279,7 +279,8 @@ nav span {
     text-transform:capitalize;
     font-size:18px;
     font-weight:bold;
-    font-family: 'Oswald', sans-serif;
+    /*font-family: 'Oswald', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-weight:normal!important;
     top:20%;
     color:white;
