@@ -23,6 +23,9 @@ header nav a {
   padding: 2em 1em .5em;
   -webkit-transition: all .3s ease-in;
 }
+.icon {
+	float: left;
+}
 .small {
   padding: .5em 1em;
 }
@@ -32,6 +35,7 @@ header nav a:hover {
 /*responsive nav */
 .topnav .icon {
   display: none;
+  float: left;
 }
 
 @media screen and (max-width: 600px) {
@@ -42,6 +46,11 @@ header nav a:hover {
   }
   .position {
     line-height: 2px;
+  }
+  #icon {
+  	float: left;
+  	left: 0;
+  	padding: 4px;
   }
 }
 
@@ -166,7 +175,7 @@ nav span {
     flex: 100%;
     /*max-width: 100%; */
     max-width: 100%;
-    position: relative;
+    float: left;
     margin: 0;
     width: 100%;
   }
