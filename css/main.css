@@ -1,12 +1,12 @@
 
 body {
-  margin: 0 auto;
+  margin: 0 auto; 
   padding: 0;
   /*font-family: "Source Sans Pro", sans-serif; */
   font-size: 2vw;
   font-family: 'Montserrat', sans-serif;
-  max-width: 100%;
-  width: 100%;
+  /*max-width: 100%;
+  width: 100%; */
 }
 
 header nav {
@@ -58,7 +58,7 @@ header nav a:hover {
   	padding: 4px;
   }
 }
-
+/*
 @media screen and (max-width: 800px) {
   .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
@@ -75,7 +75,7 @@ header nav a:hover {
     line-height: 2px;
   }
  }
-
+*/
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
@@ -191,7 +191,7 @@ nav span {
     /* max-width: 50%; */
     max-width: 100%;
   }
-  body {
+  /*body {
   	max-width: 100%;
   	width: 100%;
   	margin: 0 auto;
@@ -199,7 +199,7 @@ nav span {
   .section {
   	width: 100%;
   	max-width: 100%;
-  }
+  } */
 }
 @media screen and (max-width:; 600px) {
   .column {
