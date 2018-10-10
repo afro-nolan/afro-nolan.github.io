@@ -157,13 +157,15 @@ nav span {
 @media screen and (max-width:; 800px) {
   .column {
     flex: 50%;
-    max-width: 50%;
+    /* max-width: 50%; */
+    max-width: 100%;
   }
 }
 @media screen and (max-width:; 600px) {
   .column {
-    flex: 1000%;
-    max-width: 1000%;
+    flex: 100%;
+    /*max-width: 100%; */
+    max-width: 100%;
   }
 }
 
