@@ -74,6 +74,7 @@ header nav a:hover {
   .position {
     line-height: 2px;
   }
+ }
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: fixed;}
@@ -209,15 +210,7 @@ nav span {
     margin: 0;
     width: 100%;
   }
-  .section {
-  	width: 100%;
-  	max-width: 100%;
-  }
-  body {
-  	max-width: 100%;
-  	width: 100%;
-  	margin: 0 auto;
-  }
+
 }
 
 @supports (object-fit: cover) and (display:grid) {
