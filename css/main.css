@@ -13,7 +13,7 @@ header nav {
   text-align: right;
   background: rgba(0,0,0,0.6);
   color: white;
-  font-size: 1em;
+  font-size: 0.8em;
   position: fixed;
   width: 100%;
   top: 0;
@@ -476,6 +476,7 @@ th {
 }
 
 .logos {
+  float: center;
   width: 15%;
   height: 15%;
   display: inline;
