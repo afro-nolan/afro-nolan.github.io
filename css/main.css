@@ -474,3 +474,12 @@ th {
     width: 100%;
   }
 }
+
+.logos {
+  width: 15%;
+  height: 15%;
+  display: inline;
+  margin: 0 5px;
+  border-radius: 5%;
+  padding-right: 10%;
+}
